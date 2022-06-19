@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+	<!--[if !mso]><!-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+	<!-- <link rel="stylesheet"  href="style.css"/> -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<!--<![endif]-->
+	<script src="https://unpkg.com/feather-icons"></script>
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			list-style-type: none;
+			font-family: "Poppins", sans-serif;
+		}
+
+		.mail-container {
+			max-width: 428px;
+			max-height:409px;
+			height: min-content;
+			margin: 0 auto;
+			text-align: center;
+			border-top: 10px solid #7ae582;
+			border-bottom: 20px solid #7ae582;
+			/* border-radius: 0 0 10px 10px; */
+			/* display: flex;
+			align-items:center;
+			justify-content: center;
+			flex-direction: column; */
+		}
+
+		.mail-container-header {
+			background-color: rgb(242, 232, 227);
+		}
+
+		.mail-container-header .mail-logo {
+			width: 250px;
+			margin: 0px auto;
+		}
+
+		.mail-container-headings .mail-heading-1 {
+			font-size: 20px;
+		}
+
+		.mail-container-headings .mail-heading-2 {
+			font-size: 30px;
+			color: #7ae582;
+			text-transform: capitalize;
+		}
+
+		.mail-container-header .mail-logo img {
+			max-width: 100%;
+		}
+
+		.mail-container-message {
+			margin: 0px 20px;
+			padding: 20px;
+			/* box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.2); */
+		}
+
+		.mail-container-message p {
+			font-size: 18px;
+			text-transform: capitalize;
+		}
+
+		.mail-container-message p span {
+			color: #7ae582;
+		}
+
+		.visit-button {
+			margin-top: 10px;
+		}
+
+		.visit-button button {
+			background-color: #7ae582;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 50px;
+			font-size: 16px;
+			cursor: pointer;
+			text-transform: uppercase;
+		}
+
+		.mail-container-footer .social-media-container {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			/* margin: 10px 20px; */
+			background-color: rgb(242, 232, 227);
+		}
+
+		.social-media-container li p {
+			color: #000;
+			font-size: 1.5em;
+			text-transform: capitalize;
+			/* padding-top: 10px;; */
+		}
+	</style>
+</head>
+
+<body>
+	<div class="mail-container">
+
+		<div class="mail-container-header">
+			
+
+			<div class="mail-container-headings">
+				<div class="mail-heading-1">
+					<h4>Welcome</h4>
+				</div>
+				<div class="mail-heading-2">
+					<h2>{{fullName}}</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="mail-container-message">
+			<p>Thank you Sir/Mam <span>{{fullName}}</span> for contact with me.</p>
+			<div class="visit-button">
+				<a href="https://my-portfolio-frontend-deephansda.vercel.app/">
+
+					<button>visit my portfolio</button>
+				</a>
+			</div>
+		</div>
+
+		<div class="mail-container-footer">
+			<div class="social-media-container">
+				<li><a href="https://www.linkedin.com/in/deep-hansda-44627a20a/">
+						<p>
+							<i data-feather="linkedin"></i>
+						</p>
+					</a></li>
+				<li><a href="https://github.com/DeepHansda/">
+						<p>
+							<i data-feather="github"></i>
+						</p>
+					</a></li>
+				<li><a href="https://my-portfolio-frontend-deephansda.vercel.app/">
+						<p>
+							<i data-feather="globe"></i>
+						</p>
+					</a></li>
+				<li><a href="https://www.facebook.com/deep.hansda.7146/">
+						<p>
+							<i data-feather="facebook"></i>
+						</p>
+					</a></li>
+			</div>
+		</div>
+	</div>
+	<script>
+		feather.replace()
+	</script>
+</body>
+
+</html>
